@@ -1,5 +1,5 @@
 import json
-from models.models import Author
+from models import Author, Quote
 
 with open('data/authors.json', 'r', encoding='utf-8') as f:
     authors = json.load(f)

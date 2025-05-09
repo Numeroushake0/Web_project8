@@ -4,8 +4,8 @@ import re
 from mongoengine import connect
 from dotenv import load_dotenv
 from redis import Redis
+from models import Author, Quote
 
-from models.models import Author, Quote
 
 # Завантаження .env
 load_dotenv()

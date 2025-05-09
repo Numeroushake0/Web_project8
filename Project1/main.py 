@@ -1,0 +1,7 @@
+from models.models import Author, Quote
+
+author = Author(fullname="Albert Einstein", born_date="March 14, 1879", born_location="in Ulm, Germany", description="... опис ...")
+author.save()
+
+quote = Quote(tags=["change", "deep-thoughts"], author=author, quote="The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.")
+quote.save()
