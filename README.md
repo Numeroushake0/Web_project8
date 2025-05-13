@@ -1,1 +1,1 @@
-# Web_project8
+cp .example.env .env
